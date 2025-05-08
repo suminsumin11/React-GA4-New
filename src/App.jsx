@@ -6,7 +6,6 @@ import Viewer from "./components/Viewer";
 
 const usePageTracking = () => {
   const location = useLocation();
-
   useEffect(() => {
     window.gtag &&
       window.gtag("event", "page_view", {
